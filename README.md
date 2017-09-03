@@ -1,6 +1,6 @@
 # EtherDelta GDAX-like Theme Extension
 
-> A [Chrome extension](https://chrome.google.com/webstore/detail/etherdelta-gdax-theme/eohjjifkbgfaolkejekjjgbchhdnflij) that enables a [GDAX](https://www.gdax.com/trade/ETH-USD)-like theme for [EtherDelta](https://etherdelta.github.io).
+> A [Chrome Extension](https://chrome.google.com/webstore/detail/etherdelta-gdax-theme/eohjjifkbgfaolkejekjjgbchhdnflij) that enables a [GDAX](https://www.gdax.com/trade/ETH-USD)-like theme for [EtherDelta](https://etherdelta.github.io).
 
 <img src="./screenshot.png" width="800" />
 
@@ -12,9 +12,23 @@ Extension available on the Chrome Web Store
 
 <img src="./extension/icon48.png" width="48" />
 
-# Notes
+# FAQ
 
-Theme is only activated on [etherdelta.github.io](https://etherdelta.github.io/) domain.
+- Q: Does this Chrome Extension execute JavaScript?
+
+  - A: There is no JavaScript execution at all. Only the CSS stylesheet is inserted into the page.
+
+- Q: Can this extension access my private key?
+
+  - A: No it can't because there is no JavaScript being executed.
+
+- Q: I don't believe you.
+
+  - A: Take a look at the source code using a tool such as [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin?hl=en) and inspect the contents.
+
+- Q: When is the theme stylesheet inserted into the page?
+
+  - A: The theme stylesheet is inserted on page load and is only activated on the [etherdelta.github.io](https://etherdelta.github.io/) domain.
 
 # License
 

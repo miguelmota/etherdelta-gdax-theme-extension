@@ -2,14 +2,17 @@
   "manifest_version": 2,
   "name": "EtherDelta GDAX-like Theme",
   "description": "A GDAX-like theme for EtherDelta.",
-  "version": "1.5",
+  "version": "1.6",
   "browser_action": {
     "default_icon": "icon.png"
   },
   "content_scripts": [
     {
-      "matches": ["http://etherdelta.github.io/*", "https://etherdelta.github.io/*"],
-      "js": ["extension.js"]
+      "matches": [
+        "http://etherdelta.github.io/*",
+        "https://etherdelta.github.io/*"
+      ],
+      "css": ["style.css"]
     }
   ],
   "icons": {
@@ -36,7 +39,7 @@
     "style.css"
   ],
   "permissions": [
-    "https://*/*",
-    "http://*/*"
+    "http://etherdelta.github.io/*",
+    "https://etherdelta.github.io/*"
   ]
 }
