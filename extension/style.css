@@ -224,3 +224,27 @@ body::-webkit-scrollbar-thumb:hover,
 .modal-content {
   color: #15232c;
 }
+
+#chartPrice {
+  background: #1E2B34 !important;
+}
+
+#chartPrice [fill="#cccccc"] {
+  fill: #4da53c;
+}
+
+#chartPrice [fill="#ff0000"] {
+  fill: #ff6939;
+}
+
+#chartDepth {
+  background: #1E2B34 !important;
+}
+
+#chartDepth [fill="#cccccc"] {
+  fill: #4da53c;
+}
+
+#chartDepth [fill="#ff0000"] {
+  fill: #ff6939;
+}

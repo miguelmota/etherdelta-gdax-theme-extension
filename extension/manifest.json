@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "EtherDelta GDAX-like Theme",
   "description": "A GDAX-like theme for EtherDelta.",
-  "version": "1.1",
+  "version": "1.2",
   "browser_action": {
     "default_icon": "icon.png"
   },
