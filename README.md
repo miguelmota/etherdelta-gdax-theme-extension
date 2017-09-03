@@ -1,4 +1,4 @@
-# EtherDelta GDAX-like Theme
+# EtherDelta GDAX-like Theme Extension
 
 > A [Chrome extension](https://chrome.google.com/webstore/detail/etherdelta-gdax-theme/eohjjifkbgfaolkejekjjgbchhdnflij) that enables a [GDAX](https://www.gdax.com/trade/ETH-USD)-like theme for [EtherDelta](https://etherdelta.github.io).
 
