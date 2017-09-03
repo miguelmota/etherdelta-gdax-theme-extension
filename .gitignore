@@ -75,11 +75,6 @@ dwsync.xml
 *.komodoproject
 .komodotools
 
-# Vim files to ignore #
-#######################
-.VimballRecord
-.netrwhist
-
 # Node #
 #####################
 node_modules
@@ -102,5 +97,7 @@ _archive
 uploads
 tmp
 
-# Files to ignore #
-#####################
+# Vim files to ignore #
+#######################
+.VimballRecord
+.netrwhist
