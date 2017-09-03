@@ -28,6 +28,10 @@
   -webkit-font-smoothing: antialiased;
 }
 
+button:focus {
+  outline:0;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -163,7 +167,8 @@ body::-webkit-scrollbar-thumb:hover,
   background-color: #4da53c;
 }
 
-.form-control {
+.form-control,
+.form-control[disabled] {
   width: 100%;
   height: 36px;
   padding: 8px 5px 8px 10px;
@@ -179,10 +184,31 @@ body::-webkit-scrollbar-thumb:hover,
   font-family: 'opensans', 'Open Sans', 'btcglyph', sans-serif;
 }
 
+.form-control[disabled] {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .form-horizontal .control-label {
   font-size: 10px;
   font-weight: bold;
   color: hsla(0,0%,100%,.8);
+}
+
+#transferFormToken td,
+#transferFormBase td {
+  position: relative;
+}
+
+#transferFormToken td .btn,
+#transferFormBase td .btn {
+  width: 100% !important;
+}
+
+#transferFormToken .fa-info-circle,
+#transferFormBase .fa-info-circle {
+  position: absolute;
+  top: -10px;
+  right: 5px;
 }
 
 .btn,
@@ -254,10 +280,6 @@ body::-webkit-scrollbar-thumb:hover,
   transition: background-color .2s ease-in-out;
 }
 
-.modal-content {
-  color: #15232c;
-}
-
 #chartPrice {
   background: #1E2B34 !important;
 }
@@ -286,4 +308,55 @@ body::-webkit-scrollbar-thumb:hover,
 .fa.fa-spinner:before {
   content: "\f1ce";
   color: rgba(255, 255, 255, 0.7);
+}
+
+
+.alertify .ajs-dialog,
+.modal-body,
+.modal-content {
+  color: #ced2d5;
+  background: #1E2B34;
+}
+
+.alertify .ajs-header,
+.modal-header {
+  color: #ced2d5;
+  background: #1E2B34;
+  border-bottom: 2px solid #18252E;
+}
+
+.alertify .ajs-footer,
+.modal-footer {
+  color: #ced2d5;
+  background: #1E2B34;
+  border-top: 2px solid #18252E;
+}
+
+.alertify .ajs-footer .ajs-buttons.ajs-auxiliary .ajs-button,
+.alertify .ajs-footer .ajs-buttons.ajs-primary .ajs-button {
+  flex: 1;
+  border: none;
+  border-radius: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  user-select: none;
+  background-color: #3d84d6 !important;
+  transition: background-color .2s ease-in-out;
+}
+
+.alertify .ajs-commands button.ajs-close {
+
+}
+
+.modal .close {
+  color: #fff;
+  transition: color .2s ease-in-out;
+}
+
+.modal .close:hover {
+  color: #fff;
 }
