@@ -312,10 +312,23 @@ body::-webkit-scrollbar-thumb:hover,
 
 
 .alertify .ajs-dialog,
+.alertify .ajs-body .ajs-content,
 .modal-body,
 .modal-content {
   color: #ced2d5;
   background: #1E2B34;
+}
+
+.alertify .ajs-body .ajs-content a,
+.modal-body a,
+.modal-content a {
+  color: #337ab7;
+}
+
+.alertify .ajs-body .ajs-content a:hover,
+.modal-body a:hover,
+.modal-content a:hover {
+  color: #408cce;
 }
 
 .alertify .ajs-header,
@@ -323,6 +336,11 @@ body::-webkit-scrollbar-thumb:hover,
   color: #ced2d5;
   background: #1E2B34;
   border-bottom: 2px solid #18252E;
+}
+
+.alertify .ajs-header .fa,
+.modal-header .fa {
+  color: #fff;
 }
 
 .alertify .ajs-footer,
