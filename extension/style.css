@@ -77,7 +77,7 @@ body::-webkit-scrollbar-thumb:hover,
 }
 
 .row .no-float:not(:last-child) {
-  border-right: 1px solid #394c56;
+  border-right: 2px solid #18252E;
 }
 
 .row-header {
@@ -85,13 +85,46 @@ body::-webkit-scrollbar-thumb:hover,
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  border-bottom: 1px solid #394c56;
+  border-bottom: 2px solid #18252E;
 }
 
 [id='bs-example-navbar-collapse-1'] .navbar-nav a {
   font-weight: bold;
   color: #15232c !important;
   font-size: 10px;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  transition: all 0.2s ease-out;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+/* selected item */
+#connection ul li[style="background: #999;"] {
+  background-color: none;
+}
+
+#connection ul li[style="background: #999;"] a {
+  color: #fff !important;
+  background: #2f3d45 !important;
+}
+
+.navbar-nav>li>.dropdown-menu a {
+  padding: 10px;
 }
 
 .nav-tabs.columns > li > a {
@@ -203,7 +236,7 @@ body::-webkit-scrollbar-thumb:hover,
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #ff6939;
+  background-color: #ff6939 !important;
   transition: background-color .2s ease-in-out;
 }
 
@@ -217,7 +250,7 @@ body::-webkit-scrollbar-thumb:hover,
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #ff5620;
+  background-color: #ff5620 !important;
   transition: background-color .2s ease-in-out;
 }
 
@@ -247,4 +280,10 @@ body::-webkit-scrollbar-thumb:hover,
 
 #chartDepth [fill="#ff0000"] {
   fill: #ff6939;
+}
+
+/* use circle-o-notch icon for spinner */
+.fa.fa-spinner:before {
+  content: "\f1ce";
+  color: rgba(255, 255, 255, 0.7);
 }
