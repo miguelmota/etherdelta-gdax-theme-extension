@@ -14,7 +14,7 @@ Extension available on the Chrome Web Store
 
 # Notes
 
-Theme is only enabled on [etherdelta.github.io](https://etherdelta.github.io/) domain.
+Theme is only activated on [etherdelta.github.io](https://etherdelta.github.io/) domain.
 
 # License
 
