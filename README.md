@@ -1,6 +1,6 @@
 # EtherDelta GDAX-like Theme
 
-> A GDAX-like theme for EtherDelta.
+> A GDAX-like theme for [EtherDelta](https://etherdelta.github.io).
 
 <img src="./screenshot.png" width="800" />
 
