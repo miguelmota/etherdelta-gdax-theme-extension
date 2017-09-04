@@ -24,7 +24,11 @@ Extension available on the Chrome Web Store
 
 - Q: I don't believe you.
 
-  - A: Take a look at the source code using a tool such as [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin?hl=en) and inspect the contents.
+  - A: Take a look at the source code using a tool such as [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin?hl=en) and inspect the contents. You can also look at the content of this repository and install it manually.
+
+- Q: How can I install it directly from this repository?
+
+  - A: Dowload this repo, and compress (zip) the contents of the `extension` folder. Then go `chrome://extensions` in the URL bar and click on "Load unpacked extension...". Select the compressed folder.
 
 - Q: When is the theme stylesheet inserted into the page?
 
