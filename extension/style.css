@@ -177,7 +177,7 @@
   outline: 0;
   box-shadow: none;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   color: #fff;
   background-color: #404a52;
@@ -304,6 +304,24 @@
   fill: #ff6939;
 }
 
+:root:root:root:root #myTrades tbody tr:nth-child(even),
+:root:root:root:root #myFunds tbody tr:nth-child(even) {
+  background: #1B2831;
+}
+
+:root:root:root:root .table-header {
+  border-bottom: 2px solid #18252E;
+}
+
+:root:root:root:root tr.clickable-row:hover {
+  background: #1B2831;
+}
+
+:root:root:root:root #volume tr:hover,
+:root:root:root:root #trades tr:hover {
+  background-color: #1B2831;
+}
+
 /* use circle-o-notch icon for spinner */
 :root:root:root:root .fa.fa-spinner:before {
   content: "\f1ce";
@@ -340,7 +358,7 @@
 
 :root:root:root:root .alertify .ajs-header .fa,
 :root:root:root:root .modal-header .fa {
-  color: #fff;
+  color: #fff !important;
 }
 
 :root:root:root:root .alertify .ajs-footer,
