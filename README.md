@@ -32,7 +32,11 @@ Extension available on the Chrome Web Store
 
 - Q: When is the theme stylesheet inserted into the page?
 
-  - A: The theme stylesheet is inserted on page load and is only activated on the [etherdelta.github.io](https://etherdelta.github.io/) domain.
+  - A: The theme stylesheet is inserted on page load.
+
+- Q. When is the Chome extension activated?
+
+  - A: The Chrome Extension is only activated on the [etherdelta.github.io](https://etherdelta.github.io/) or [etherdelta.com](https://etherdelta.com/) domain.
 
 # License
 
