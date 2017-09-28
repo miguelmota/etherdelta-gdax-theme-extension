@@ -22,7 +22,7 @@ Extension available on the Chrome Web Store
 
   - A: No it can't because there is no JavaScript being executed.
 
-- Q: I don't believe you.
+- Q: How can I *really* believe you?
 
   - A: Take a look at the source code using a tool such as [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin?hl=en) and inspect the contents. You can also look at the content of this repository and install it manually.
 
