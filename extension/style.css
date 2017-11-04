@@ -396,3 +396,22 @@
 :root:root:root:root .modal .close:hover {
   color: #fff;
 }
+
+/* Cloudflare */
+
+:root:root:root:root #cf-content,
+:root:root:root:root #cf-content h1,
+:root:root:root:root #cf-content p {
+  color: #ced2d5;
+}
+
+:root:root:root:root #cf-content .bubbles {
+  background-color: #ced2d5;
+}
+
+:root:root:root:root #cf-content a,
+:root:root:root:root #cf-content a:hover,
+:root:root:root:root .attribution a,
+:root:root:root:root .attribution a:hover {
+  color: #337ab7;
+}
