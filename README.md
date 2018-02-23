@@ -1,6 +1,6 @@
 # EtherDelta GDAX-like Theme Extension
 
-> A [Chrome Extension](https://chrome.google.com/webstore/detail/etherdelta-gdax-theme/eohjjifkbgfaolkejekjjgbchhdnflij) that enables a [GDAX](https://www.gdax.com/trade/ETH-USD)-like theme for [EtherDelta](https://etherdelta.github.io).
+> A [Chrome Extension](https://chrome.google.com/webstore/detail/etherdelta-gdax-theme/eohjjifkbgfaolkejekjjgbchhdnflij) that enables a [GDAX](https://www.gdax.com/trade/ETH-USD)-like theme for [EtherDelta](https://etherdelta.github.io) or [ForkDelta](https://forkdelta.github.io/).
 
 <img src="./screenshot.png" width="800" />
 
@@ -37,6 +37,10 @@ Extension available on the Chrome Web Store
 - Q. When is the Chome Extension activated?
 
   - A: The Chrome Extension is only activated on the [etherdelta.github.io](https://etherdelta.github.io/) or [etherdelta.com](https://etherdelta.com/) domain.
+
+- Q: Does this Chrome Extension work with ForkDelta?
+
+  - A: Yes, the Chrome Extension works with ForkDelta.
 
 # License
 

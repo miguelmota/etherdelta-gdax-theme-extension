@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "EtherDelta GDAX-like Theme",
   "description": "A GDAX-like theme for EtherDelta.",
-  "version": "1.9",
+  "version": "1.10",
   "browser_action": {
     "default_icon": "icon.png"
   },
@@ -12,7 +12,11 @@
         "http://etherdelta.github.io/*",
         "https://etherdelta.github.io/*",
         "http://etherdelta.com/*",
-        "https://etherdelta.com/*"
+        "https://etherdelta.com/*",
+        "http://forkdelta.github.io/*",
+        "https://forkdelta.github.io/*",
+        "http://forkdelta.com/*",
+        "https://forkdelta.com/*"
       ],
       "css": ["style.css"]
     }
